@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+iapiVersion: apps/v1
 kind: Deployment
 metadata:
   name: currency-converter
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: currency-converter
-        image: gvreddy3/currencyconverter:1.0
+        image: gvreddy3/currencyconverter:1.0 
         ports:
         - containerPort: 5555
         env:
