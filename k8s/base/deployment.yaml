@@ -15,6 +15,7 @@ spec:
       containers:
       - name: currency-converter
         image: gvreddy3/currencyconverter:1.0 
+        imagePullPolicy: Always
         ports:
         - containerPort: 5555
         env:
